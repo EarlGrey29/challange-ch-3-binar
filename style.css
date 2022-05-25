@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    margin: 0%;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: white;
+    
+}
+
+.home{
+    width: 100wh;
+    height:960px;
+    background-image: url(./assets/main-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
+    
+}
+
+
+
+.head{
+    position: absolute;
+    height: 73.12px;
+    left: 9.22%;
+    right: 10.47%;
+    top: calc(50% - 73.12px/2 - 130.06px);
+    
+    margin-top : 60px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+    
+
+
+.sub-title{
+    position: absolute;
+    left: 33.84%;
+    right: 29.66%;
+    top: 46.23%;
+    bottom: 50.89%;
+    margin-top: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+    
+}
+
+.btn-warning{
+    font-weight: bold;
+    padding: 10px 60px 10px 60px;
+    margin-top: 350px;
+    border-radius: 4px;
+    font-size: 22px;
+}
+
+#the-story{
+    margin-top:350px;
+
+}
+
+.the-games{
+    height:120vh;
+    background-image: url(./assets/the-games-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.the-games{
+    padding-left: 25px;
+
+}
+
+#special{
+    position: relative;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin-top:200px;
+    padding: 50px;
+
+}
+
+#games{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.resize{
+    height: 350px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+
+
+.features{
+    height: 120vh;
+    background-image: url(./assets/features.jpg);
+    background-size: cover;
+    display: flex;
+}
